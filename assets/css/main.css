@@ -1603,8 +1603,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
-		font-weight: 400;
+		color: #000000;
+		font-weight: 600;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
