@@ -1,0 +1,376 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.82]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3.7cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\graphicspath{{../}{image/}}
+\newcommand{\ul}[1]{\underline{\smash{#1}}}
+\def\red#1{\textcolor{red}{#1}}
+\def\blue#1{\textcolor{blue}{#1}}
+\def\oral#1{\textcolor{red}{\textbf{#1}}}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Wei-Chih} % Your first name
+\familyname{Hung\\(Wayne)} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{311 Science and Engineering Building 2}{UC Merced, CA 95343}
+%\mobile{209-777-2216}
+\phone{+1-213-453-3980}
+%\fax{}
+\email{whung8@ucmerced.edu}
+\homepage{hfslyc.github.io/}{https://hfslyc.github.io/} 
+% The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%--------------------------------------------------------------------------------------
+% EDUCATION SECTION
+%--------------------------------------------------------------------------------------
+\vspace{-10mm}
+\section{Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cventry{2016--Present}
+{Ph.D. Student}
+{\href{http://ucmerced.edu/}{University of California, Merced}}{CA}{USA}
+{
+Electrical Engineering and Computer Science \\
+Vision and Learning Lab \infolink{http://vllab.ucmerced.edu}{link}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cventry{2014--2016}
+{Masters of Science}
+{\href{http://www.usc.edu//}{University of Southern California}}{CA}{USA}
+{Electrical Engineering\\
+Media Communication Lab \infolink{http://mcl.usc.edu/}{link}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cventry{2011--2013}
+{Masters of Science}
+{\href{http://www.ntu.edu.tw/english/}{National Taiwan University}}{Taipei}{Taiwan}
+{Communication Engineering}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cventry{2007--2011}
+{Bachelor of Science}
+{\href{http://www.ntu.edu.tw/english/}{National Taiwan University}}{Taipei}{Taiwan}
+{Electrical Engineering}
+
+
+%--------------------------------------------------------------------------------------
+% RESEARCH INTERESTS
+%--------------------------------------------------------------------------------------
+\section{Research Interests}
+\cvitem{}{Computer Vision, Machine Learning}
+
+
+
+%--------------------------------------------------------------------------------------
+% PUBLICATION SECTION
+%--------------------------------------------------------------------------------------
+
+\section{Publications  \small{ (\infolink{https://scholar.google.com/citations?hl=en&btnA=1&user=AjaDLjYAAAAJ}{Google Scholar profile})}}
+
+%\cventry{Submit to CVPR 2017}
+%{Scene Parsing with Global Context Encoding}
+%{}{}{}
+%{
+%	\ul{Wei-Chih Hung}, Yi-Hsuan Tsai, Xiaohui Shen, Zhe Lin, Kalyan Sunkavalli, Xin Lu, and Ming-Hsuan Yang \\
+%	Submit to IEEE Conference on Computer Vision and Pattern Recognition, 2017
+%}
+%
+%
+%\cventry{Submit to CVPR 2017}
+%{Instance Semantic Segmentation by Learning Pairwise Affinity}
+%{}{}{}
+%{
+%	\ul{Wei-Chih Hung}, Xiao Bian, and Ser-Nam Lim \\
+%	Submit to IEEE Conference on Computer Vision and Pattern Recognition, 2017
+%}
+
+
+\cventry{ECCV 2016}
+{Unsupervised Visual Representation Learning by Graph-Based Consistent Constraints}
+{}{}{}
+{
+	Dong Li, \ul{Wei-Chih Hung}, Jia-Bin Huang, Shengjin Wang, Narendra Ahuja, Ming-Hsuan Yang\\
+	IEEE Conference on Computer Vision and Pattern Recognition, 2016
+	{\infolink{https://drive.google.com/open?id=0BynEQyOSGRoSOW1ILU5NMFgwTUk}{paper}}
+	{\infolink{https://sites.google.com/site/lidonggg930/feature-learning}{project}}
+}
+
+
+
+\cventry{GlobalComm 2013}
+{Iterative decoding for uncompressed wireless video transmission}
+{}{}{}
+{
+	Wei-Ting Lin*, \ul{Wei-Chih Hung*} (*indicates equal contribution), Kuan-Yu Lin, Ping-Cheng Yeh\\
+	IEEE Global Communications Conference, 2013
+}
+
+\cventry{WCNC 2012}
+{Dynamic source-channel rate-distortion control under time-varying complexity constraint for wireless video transmission}
+{}{}{}
+{
+	Tsu-Hao Kuo*, Po-Hsuan Chen*, \ul{Wei-Chih Hung}, Chih-Yu Huang, Chia-han Lee, and Ping-Cheng Yeh\\
+	IEEE Wireless Communications and Networking Conference, 2012
+}
+
+
+
+%--------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%--------------------------------------------------------------------------------------
+
+\section{Research Experience}
+
+\cventry{May. 2016 - Aug. 2016}
+%
+{Computer Vision Lab, GE Research, Niskayuna, NY}
+{}{}{}
+{
+	\textit{Research Intern with Xiao Bian and Ser Nam Lim}
+	%
+	\begin{itemize}
+		\item \textbf{Instance Semantic Segmentation by Learning Pairwise Affinity} \\
+		This work aims to solve the instance segmentation by learning from the semantic affinity between pixels based on a fully convolutional network.
+	\end{itemize}
+}
+
+
+\cventry{Aug. 2016 -- Present}
+%
+{Vision and Learning Lab, EECS, University of California, Merced}
+{}{}{}
+{
+\textit{Graduate Research Assistant with Prof. Ming-Hsuan Yang}
+%
+\begin{itemize}
+	%
+	%
+	\item \textbf{Scene Parsing with Global Context Encoding (Collaborate with Adobe Research})\\
+	This work aims to solve scene parsing by incorporating the scene category information with the Siamese network and improving the parsing results through both parametric and non-parametric methods.
+	%
+	%
+	\item \textbf{Unsupervised Learning by Graph-Based Consistent Constraints}\\
+	This work aims to perform deep unsupervised learning by leveraging the graph consistency between images.
+\end{itemize}
+}
+
+
+
+
+\cventry{Jul. 2014 - Jul. 2016}
+%
+{Media Communication Lab, University of Southern California}
+{}{}{}
+{
+	\textit{Research Assistant with Prof. C.-C. Jay Kuo}
+	%
+	\begin{itemize}
+		\item \textbf{Object Verification for Pedestrian Detection} \\
+		This work aims at handling intra-class variation in the pedestrian detection problem under low image quality using figure-ground segmentation and contour straddling measure as a second-stage classifier.
+		%
+		\item \textbf{Data Driven Indoor Scene 3D Layout Understanding} \\
+		This work aims to approach indoor scene understanding by using geometry cues with structure learning algorithms.
+		\item \textbf{Remote Mentoring System based on Smart Glasses for Aircraft Maintenance} \\
+		Developed a remote mentoring system with smart glasses with optimized streaming quality for Korean Air and United Technology. 
+	\end{itemize}
+}
+
+
+
+\cventry{Jul. 2011 - Jun. 2013}
+%
+{Multimedia Communication Lab, National Taiwan University, Taipei, Taiwan}
+{}{}{}
+{
+	\textit{Research Assistant with Prof. Ping-Cheng Yeh}
+	%
+	\begin{itemize}
+		\item \textbf{Iterative 3D-MRF based Decoder for Uncompressed Wireless Video Transmission} \\
+		This work aims to improve the wireless video transmission quality by introducing a 3-dimensional (spatio-temporal) Markov random field (MRF) model to formulate the natural redundancy of video sequences . 
+		\item \textbf{Joint Research on 3GPP LTE and LTE-Advanced Physical Layer with HTC Cooperation} \\
+		This project aims to contribute to the latest 4G protocol meeting by proposing a new MIMO precoder codebook by interpolating multiple feedback precoder matrix index (PMI) using geodesic field Interpolation.
+	\end{itemize}
+}
+
+
+\cventry{Jul. 2010 - Jun. 2011}
+%
+{Wireless Communication Lab, Academia Sinica, Taipei, Taiwan}
+{}{}{}
+{
+	\textit{Research Assistant with Prof. Chia-Han Lee}
+	%
+	\begin{itemize}
+		\item \textbf{Joint Source-Channel Rate-Distortion Control under Dynamic Complexity Constraint for Wireless Video Transmission} \\
+		This work proposes an online algorithm searching for H.264 parameters to reach sub-optimal distortion in real-time.
+		\item \textbf{Software-defined Radio based Wireless H.264 Video Streaming System} \\
+		This project develops a software-defined radio (SDR) based wireless H.264 video streaming system over Universal Software Radio Peripheral (USRP) and GNU Radio.
+	\end{itemize}
+}
+
+\cventry{Jul. 2011 - Sep. 2011}
+%
+{Qualcomm, Taipei, Taiwan}
+{}{}{}
+{
+	\textit{Software Intern, Multimedia Group}
+	%
+	\begin{itemize}
+		\item \textbf{Mobile GPU Analysis} \\
+		This project develops internal tools using opengl-es on the most advanced mobile platform with mobile GPU team.
+	\end{itemize}
+}
+
+
+
+
+%--------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE SECTION
+%--------------------------------------------------------------------------------------
+
+\section{Teaching Experience}
+
+\cventry{Aug. 2016 -- Present}
+%
+{EECS, University of California, Merced}
+{}{}{}
+{
+\begin{itemize}
+	\item CSE 020 Introduction to Computing [Java Programming] (Fall 2016)
+\end{itemize}
+}
+
+
+%--------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%--------------------------------------------------------------------------------------
+\section{Awards}
+
+\cventry{Feb. 2011}
+{First Prize}{}
+{Nvidia Parallel Computing Contest 2011}{}{Develop a real-time indoor sound simulation system with CUDA.}
+
+\cventry{Oct. 2010}
+{Undergraduate Student Research Grant}{}
+{Academia Sinica, Taipei, Taiwan}{}{Lead a research project on wireless video transmission system.}
+
+
+%--------------------------------------------------------------------------------------
+%	ACADEMIC SERVICES SECTION
+%--------------------------------------------------------------------------------------
+%\section{Academic Services}
+%
+%\cvitem{Conference Reviewer}
+%{
+%European Conference on Computer Vision (\textbf{ECCV 2016}) \newline
+%Asian Conference on Computer Vision (\textbf{ACCV 2016}) \newline
+%Neural Information Processing Systems (\textbf{NIPS 2016}) \newline
+%Pacific Conference on Computer Graphics and Applications (\textbf{PG 2016})
+%}
+%
+%\cvitem{Journal Reviewer}
+%{
+%	Computer Vision and Image Understanding (\textbf{CVIU 2016})
+%}
+%--------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%--------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\cvitem{Programming}{C/C++, Python, Java}
+\cvitem{Toolbox / Software}{Caffe, MATLAB, OpenCV, CUDA}
+
+
+%--------------------------------------------------------------------------------------
+%	REFERENCES SECTION
+%--------------------------------------------------------------------------------------
+
+\section{References}
+
+\cventry{Ph.D. Advisor}
+{Ming-Hsuan Yang}
+{Associate Professor}{University of California, Merced}{}
+{
+	\emailsymbol\emaillink{mhyang@ucmerced.edu}
+	\infolink{http://faculty.ucmerced.edu/mhyang/}{homepage}
+}
+
+\cventry{Research Mentor}
+{Ser Nam Lim}
+{Lab Manager, Computer Vision Lab}{GE Global Research, Niskayuna, NY}{}
+{
+	\emailsymbol\emaillink{limser@ge.com}
+	\infolink{https://www.linkedin.com/in/sernam}{homepage}
+}
+
+\cventry{M.S. Advisor}
+{C.-C. Jay Kuo}
+{Dean's Professor}{University of Southern California, Los Angeles}{}
+{
+	\emailsymbol\emaillink{cckuo@sipi.usc.edu}
+	\infolink{http://mcl.usc.edu/people/cckuo/}{homepage}
+}
+
+
+\cventry{M.S. Advisor}
+{Ping-Cheng Yeh}
+{Professor}{National Taiwan University, Taiwan}{}
+{
+	\emailsymbol\emaillink{pcyeh@ntu.edu.tw}
+	\infolink{http://ee.ntu.edu.tw/en/article/teacher.person/jobSN/1/navSN/356/webSN/376/teacherSN/109}{homepage}
+}
+
+
+
+
+\end{document}
